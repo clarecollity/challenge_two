@@ -105,7 +105,6 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     return bank_data_filtered
 
 
-def save_qualifying_loans(qualifying_loans):
     """Saves the qualifying loans to a CSV file.
 
     Args:
@@ -119,7 +118,12 @@ def save_csv(qualifying_loans):
         qualifying_loans_writer = csv.writer(qualifying_loans_file, delimiter=',')
         
         for loan in qualifying_loans:
-            qualifying_loans_writer.writerow(loan)        
+            qualifying_loans_writer.writerow(loan)     
+
+    return qualifying_loans   
+
+def save_qualifying_loans(loans): 
+    qualifying_loans = questionary.text("Would you like to save qualifying loans?").ask()
 
 
 def run():
