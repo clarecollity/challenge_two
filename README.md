@@ -1,5 +1,7 @@
 # Module Two Challenge : Qualifying Loan Data
-* By Clare Collity
+*By Clare Collity
+___
+
 This project was designed to give users the ability to enter their information and determine if they qualify for loans from a variety of different banks.
 
 
@@ -15,13 +17,13 @@ To make this project, I used Python and VS Code on a Mac OS. I imported csv, fir
 ## Installation Guide
 
 To install this program, just run python app.py, and then the path for the csv file when prompted (/Users/clarecollity/Desktop/Starter_Code-2/qualifier/data/daily_rate_sheet.csv).
-![Screen Shot](Screen Shot 2021-04-10 at 11.28.34 PM.pdf)
+![Screen Shot](/Users/clarecollity/Desktop/Starter_Code-2/qualifier/tests/__pycache__/photos)
 
 ---
 
 ## Examples
 
-![Screen Shot](Screen Shot 2021-04-10 at 11.40.22 PM)
+![Screen Shot 2](/Users/clarecollity/Desktop/Starter_Code-2/qualifier/tests/__pycache__/photos)
 
 ---
 
